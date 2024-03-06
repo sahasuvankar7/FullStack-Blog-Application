@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.content{
+    flex:5;
+}
+.menu{
+    flex:2;
+}
+.item{
+    flex:1;
+}
+.cat{
+    display:flex;
+    align-items:center;
+    gap:2px;
+    color:teal;
+
+}

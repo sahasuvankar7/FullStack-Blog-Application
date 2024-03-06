@@ -1,0 +1,10 @@
+.after-content::after {
+    content: "";
+    width: 90%;
+    height: 100%;
+    background-color: #b9e7e7; /* You need to define $lightGreen in your stylesheet */
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    z-index: -1;
+  }
